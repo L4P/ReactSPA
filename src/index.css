@@ -1,0 +1,226 @@
+@import "_nullStyle.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 80px;
+}
+.container {
+    width: 90vw;
+    min-height: calc( 100vh - 160px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+.header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #DB801B;
+    text-decoration: none;
+}
+.header.active {
+    background-color: #DB801BAA;
+}
+.nav-wrapper {
+    width: 90vw;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    height: 100%;
+}
+.nav-links li {
+    height: 100%;
+}
+.nav-wrapper a {
+    color: #FFF;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+}
+.brand-logo {
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-wrapper button {
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    color: #FFF;
+}
+.nav-wrapper img {
+    height: 8px;
+}
+
+
+/* SEARCH */
+
+.input {
+    width: 40vw;
+    max-width: 400px;
+    margin-bottom: 48px;
+}
+input {
+    width: 100%;
+    border: 1px solid #8D8278;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+/* CATEGORIES */
+
+
+.list {
+    margin-top: 48px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: min(4vw,24px);
+}
+.card {
+    width: 320px;
+    min-height: 380px;
+    background-color: #E2CDA2;
+    color: #000;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    overflow: hidden;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-content {
+    font-size: 12px;
+    margin: 0 5%;
+}
+.card-action {
+    justify-self: flex-end;
+    width: 90%;
+    height: 36px;
+    background-color: #8D8278;
+    border-radius: 8px;
+    margin: auto 5% 5% 5%;
+}
+.card-action a {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* RECIPE */
+
+
+.recipe-wrap {
+    padding: 48px 5vw;
+}
+.recipe img {
+    width: 100vw;
+    height: 420px;
+    object-fit: cover;
+}
+.recipe h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.recipe h6 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.recipe p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 50vw;
+}
+.recipe-instruction {
+    margin-top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+table {
+    width: 20vw;
+    border-spacing: 0;
+    font-size: 16px;
+}
+td, th {
+    text-align: left;
+    padding: 4px 8px ;
+    font-weight: 400;
+}
+thead {
+    background-color: #8D8278;
+    color: #FFF;
+    font-weight: 600;;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: #DB801B;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin-top: 48px;
+    color: #FFF;
+}
+.footer-link {
+    color: #FFF;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+}
