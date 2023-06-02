@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactSPA/static/css/main.3e17fc0a.css",
-    "main.js": "/ReactSPA/static/js/main.246e7ddb.js",
+    "main.js": "/ReactSPA/static/js/main.9c8ef876.js",
     "static/media/GHlogo.png": "/ReactSPA/static/media/GHlogo.469442264a78a611560f.png",
     "index.html": "/ReactSPA/index.html",
     "static/media/back.svg": "/ReactSPA/static/media/back.a244fc298f97b770c5aeb7fcf3090c76.svg",
     "main.3e17fc0a.css.map": "/ReactSPA/static/css/main.3e17fc0a.css.map",
-    "main.246e7ddb.js.map": "/ReactSPA/static/js/main.246e7ddb.js.map"
+    "main.9c8ef876.js.map": "/ReactSPA/static/js/main.9c8ef876.js.map"
   },
   "entrypoints": [
     "static/css/main.3e17fc0a.css",
-    "static/js/main.246e7ddb.js"
+    "static/js/main.9c8ef876.js"
   ]
 }
